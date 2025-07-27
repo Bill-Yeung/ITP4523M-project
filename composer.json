@@ -1,0 +1,8 @@
+{
+  "minimum-stability": "beta",
+  "prefer-stable": true,
+  "require": {
+    "mpdf/mpdf": "8.2",
+    "phpmailer/phpmailer": "^6.10"
+  }
+}

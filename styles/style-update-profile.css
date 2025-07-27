@@ -1,0 +1,303 @@
+#profile-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+#profile-header {
+  margin-bottom: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+#profile-header h2 {
+  font-size: 28px;
+  color: #3F5EFB;
+}
+
+#profile-header p {
+  font-size: 16px;
+  color: #4b4949;
+}
+
+#profile-section {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+#profile-picture-section {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 20px;
+}
+
+#picture-container {
+  position: relative;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #0000001a;
+  overflow: hidden;
+}
+
+#profile-picture {
+  width: 100%;
+  height: 175px;
+  object-fit: fill;
+}
+
+#photo-input {
+  display: none;
+}
+
+#picture-controls {
+  padding: 20px;
+  text-align: center;
+}
+
+#upload-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background: #3F5EFB;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#upload-btn:hover {
+  background: #324bcc;
+}
+
+#save-photo-btn, #cancel-photo-btn {
+  display: none;
+  margin: 0px 5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#save-photo-btn {
+  background: #4CAF50;
+  color: white;
+}
+
+#save-photo-btn:hover {
+  background: #3a8a3d;
+}
+
+#cancel-photo-btn {
+  background: #ff6b6b;
+  color: white;
+}
+
+#cancel-photo-btn:hover {
+  background: #ff4949;
+}
+
+#basic-info {
+  padding: 20px;
+  border-radius: 8px;
+  background: white;
+  text-align: center;
+  box-shadow: 5px 5px 5px #0000001a;
+}
+
+#basic-info h3 {
+  margin: 0px 0px 15px 0px;
+  font-size: 20px;
+  color: #3F5EFB;
+}
+
+#basic-info p {
+  margin: 8px 0px;
+  font-size: 14px;
+  color: #665f5f;
+}
+
+#profile-info-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#info-card {
+  height: 405px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #0000001a;
+  overflow: hidden;
+}
+
+#info-card h3 {
+  margin: 0px;
+  padding: 20px 20px 20px 20px;
+  border-bottom: 2px solid #f0f0f0;
+  font-size: 20px;
+  color: #3F5EFB;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.info-label {
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #665f5f;
+}
+
+.info-value {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-value span {
+  flex: 1;
+  font-weight: bold;
+  color: black;
+}
+
+#email-input, #telephone-input, #address-input {
+  display: none;
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid darkgrey;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+#email-input:focus, #telephone-input:focus, #address-input:focus {
+  border-color: #3F5EFB;
+  outline: none;
+}
+
+#address-input {
+  min-height: 60px;
+}
+
+/* Buttons */
+.edit-btn {
+  padding: 6px 12px;
+  border: 1px solid #3F5EFB;
+  border-radius: 4px;
+  background: white;
+  color: #3F5EFB;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.edit-btn:hover {
+  background: #3F5EFB;
+  color: white;
+}
+
+.save-btn {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #4CAF50;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.save-btn:hover {
+  background: #3a8a3d;
+}
+
+.cancel-btn {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #ff6b6b;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cancel-btn:hover {
+  background: #ff4949;
+}
+
+#password-change-form {
+  display: none;
+  margin-top: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #0000001a;
+  overflow: hidden;
+}
+
+#form-card h3 {
+  margin: 0px;
+  padding: 20px 20px 15px 20px;
+  font-size: 18px;
+  color: #3F5EFB;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+#password-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#password-table td {
+  padding: 15px 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.form-label {
+  width: 180px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #665f5f;
+}
+
+.form-input {
+  width: auto;
+}
+
+.form-input input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid darkgrey;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+.form-input input[type="password"]:focus {
+  border-color: #3F5EFB;
+  outline: none;
+}
+
+#form-buttons {
+  padding: 20px;
+  text-align: left;
+}
+
+#form-buttons .save-btn, #form-buttons .cancel-btn {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 14px;
+}

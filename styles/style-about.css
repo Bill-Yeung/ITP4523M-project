@@ -1,0 +1,99 @@
+#about-us-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-bottom: 40px;
+  background: #615b5b;
+  text-align: center;
+  color: white;
+}
+
+#about-us-header h1 {
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+#about-us-header p {
+  font-size: 22px;
+}
+
+#about-us-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#about-us-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#about-us-photo {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #0000001a;
+}
+
+#intro-content {
+  max-width: 800px;
+}
+
+#intro-content p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.about-section {
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 28px;
+  color: #3F5EFB;
+}
+
+.about-section h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background: #3F5EFB;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.list {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.list li {
+  padding: 10px 0px;
+  font-size: 18px;
+}
+
+.list li span {
+  font-weight: bold;
+  color: #3F5EFB;
+}
+
+#closing {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 24px;
+  text-align: center;
+  background: white;
+  box-shadow: 5px 5px 5px #0000001a;
+}
