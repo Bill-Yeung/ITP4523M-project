@@ -116,7 +116,7 @@ CREATE TABLE `customer` (
 
 LOCK TABLES `customer` WRITE;
 /*!40000 ALTER TABLE `customer` DISABLE KEYS */;
-INSERT INTO `customer` VALUES (1,'Alex Wong','hkiit240064782@gmail.com','$2y$10$/eplKtMAU7LbVnKrdeWksezZdsOUWDXo6wumGnASv9K9W/VAqHUoW',21232123,'G/F, ABC Building, King Yip Street, KwunTong, Kowloon, Hong Kong','Fat Cat Company Limited','[]',NULL,1),(2,'Tina Chan','tinachan@xdd.com','$2y$10$aFUXp8pRYoYkAMC3C14FTe7T46vq2xkfqjG3ohX6MxRFyLO1HqOsO',31233123,'303, Mei Hing Center, Yuen Long, NT, Hong Kong','XDD LOL Company','[]',NULL,1),(3,'Bowie','bowie@gpa4.com','$2y$10$aFUXp8pRYoYkAMC3C14FTe7T46vq2xkfqjG3ohX6MxRFyLO1HqOsO',61236123,'401, Sing Kei Building, Kowloon, Hong Kong','GPA4 Company',NULL,NULL,1);
+INSERT INTO `customer` VALUES (1,'Alex Wong','123@example.com','$2y$10$/eplKtMAU7LbVnKrdeWksezZdsOUWDXo6wumGnASv9K9W/VAqHUoW',21232123,'G/F, ABC Building, King Yip Street, KwunTong, Kowloon, Hong Kong','Fat Cat Company Limited','[]',NULL,1),(2,'Tina Chan','tinachan@xdd.com','$2y$10$aFUXp8pRYoYkAMC3C14FTe7T46vq2xkfqjG3ohX6MxRFyLO1HqOsO',31233123,'303, Mei Hing Center, Yuen Long, NT, Hong Kong','XDD LOL Company','[]',NULL,1),(3,'Bowie','bowie@gpa4.com','$2y$10$aFUXp8pRYoYkAMC3C14FTe7T46vq2xkfqjG3ohX6MxRFyLO1HqOsO',61236123,'401, Sing Kei Building, Kowloon, Hong Kong','GPA4 Company',NULL,NULL,1);
 /*!40000 ALTER TABLE `customer` ENABLE KEYS */;
 UNLOCK TABLES;
 
